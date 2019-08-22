@@ -1,0 +1,13 @@
+.image-gallery-image img {
+  max-width: 500px;
+  max-height: 600px;
+}
+
+button {
+  color: black;
+}
+
+.image-gallery-image {
+  background: black;
+  min-height: 500px;
+}

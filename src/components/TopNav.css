@@ -1,0 +1,64 @@
+container {
+  width: 100%;
+  /* margin: 0 auto; */
+}
+
+header {
+  background: #93c9d3;
+  color: white;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.mobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .mobile {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav li {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .text-left {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .text-left li {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .text-right li {
+    display: none;
+  }
+}
+
+#top-nav li a {
+  color: white;
+}
+
+#top-nav li a:hover {
+  color: #ff7f50;
+  text-decoration: none;
+}

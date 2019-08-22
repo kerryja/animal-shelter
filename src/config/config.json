@@ -1,0 +1,10 @@
+{
+    "development": {
+        "baseImgUrl": "http://www.saveadog.org/DogPictures/",
+        "baseAPIURL": "http://localhost:4000/api",
+        "serverPort": 4000
+    },
+    "testing": {},
+    "staging": {},
+    "production": {}
+}

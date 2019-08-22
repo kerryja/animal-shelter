@@ -1,0 +1,17 @@
+.card-title {
+  font-family: "Delius", cursive;
+  color: #93c9d3;
+}
+
+.card-title:hover {
+  color: #ff7f50;
+  text-decoration: none;
+}
+
+.card-text {
+  padding-bottom: 5px;
+}
+
+.card-link {
+  color: #ff7f50;
+}

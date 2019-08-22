@@ -1,0 +1,27 @@
+.navbar-default {
+  background-color: #ffffff;
+}
+
+@media screen and (max-width: 1000px) {
+  .navbar-brand img {
+    max-width: 200px;
+  }
+}
+
+@media screen and (max-width: 388px) {
+  .navbar-brand img {
+    max-width: 150px;
+  }
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.nav-link:hover {
+  color: #ff7f50;
+}
