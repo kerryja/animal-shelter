@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import "./Slider.css";
 import ImageGallery from "react-image-gallery";
-import "/Kerry/bloc2/animal-shelter1/node_modules/react-image-gallery/styles/css/image-gallery.css";
+// import "/Kerry/bloc2/animal-shelter/node_modules/react-image-gallery/styles/css/image-gallery.css"
+import "../../node_modules/react-image-gallery/styles/css/image-gallery.css";
 import "../config/config";
 
 class Slider extends Component {

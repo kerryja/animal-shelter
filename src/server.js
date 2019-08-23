@@ -18,4 +18,4 @@ app.get("/*", function(req, res) {
   res.sendFile(path.join(__dirname, "..", "build", "index.html"));
 });
 
-app.listen(global.gConfig.serverPort);
+app.listen(process.env.PORT || global.gConfig.serverPort);
