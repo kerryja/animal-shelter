@@ -20,10 +20,11 @@
     "sequelize-cli": "^5.5.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start-react": "react-scripts start",
+    "start": "node src/server.js",
     "build": "react-scripts build",
     "test": "jasmine",
-    "eject": "react-scripts eject"
+    "eject-react": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
