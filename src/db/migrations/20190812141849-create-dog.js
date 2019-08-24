@@ -21,10 +21,10 @@ module.exports = {
         type: Sequelize.DATE
       },
       description: {
-        type: Sequelize.VARCHAR(1200)
+        type: Sequelize.TEXT
       },
       picture: {
-        type: Sequelize.VARCHAR(255)
+        type: Sequelize.STRING
       },
       createdAt: {
         allowNull: false,

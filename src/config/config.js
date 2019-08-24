@@ -1,5 +1,3 @@
-// om namah shivay
-
 // requires
 const _ = require("lodash");
 

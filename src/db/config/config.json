@@ -2,7 +2,7 @@
   "development": {
     "username": "postgres",
     "password": null,
-    "database": "animal1-shelter-dev",
+    "database": "animal-shelter-dev",
     "host": "127.0.0.1",
     "dialect": "postgres",
     "logging": false
@@ -10,7 +10,7 @@
   "test": {
     "username": "postgres",
     "password": null,
-    "database": "animal1-shelter-test",
+    "database": "animal-shelter-test",
     "host": "127.0.0.1",
     "dialect": "postgres",
     "logging": false
