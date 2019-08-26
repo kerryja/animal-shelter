@@ -10,6 +10,7 @@ module.exports = {
           dogs.map(dbDog => {
             return {
               name: dbDog.name,
+              id: dbDog.id,
               breed: dbDog.breed,
               gender: dbDog.gender,
               age: dbDog.age,

@@ -23,17 +23,17 @@ class CardDetails extends Component {
       return <div />;
     }
     return (
-      <div className="card">
+      <div className="card card-dog">
         <div className="card-body">
           <h5 className="card-title">{dog.name}</h5>
           <h6 className="card-subtitle mb-2 text-muted">{dog.breed}</h6>
           <h6 className="card-subtitle mb-2 text-muted">{dog.gender}</h6>
           <p className="card-text">{dog.description}</p>
           <a href="#" className="card-link">
-            Apply for Luna
+            Apply for {dog.name}
           </a>
           <a href="/dogs" className="card-link">
-            Back to Dogs
+            Back to All Dogs
           </a>
         </div>
       </div>

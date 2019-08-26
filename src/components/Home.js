@@ -11,9 +11,6 @@ class Home extends Component {
             <p>Save a life.</p>
           </h1>
         </section>
-        <section>
-          <h1>kdsjflsakjflsakfj</h1>
-        </section>
       </div>
     );
   }

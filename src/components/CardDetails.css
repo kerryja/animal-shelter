@@ -1,6 +1,15 @@
+.card-dog {
+  width: 70rem;
+  margin: 0 auto;
+}
+
 .card-title {
   font-family: "Delius", cursive;
   color: #93c9d3;
+}
+
+.card-subtitle {
+  font-size: 1.2rem;
 }
 
 .card-title:hover {
@@ -10,8 +19,10 @@
 
 .card-text {
   padding-bottom: 5px;
+  font-size: 20px;
 }
 
 .card-link {
   color: #ff7f50;
+  font-size: 1.2rem;
 }

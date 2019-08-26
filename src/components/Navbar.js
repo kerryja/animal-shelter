@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 class Navbar extends Component {
@@ -24,45 +25,93 @@ class Navbar extends Component {
             </button>
             <div className="collapse navbar-collapse" id="navbarResponsive">
               <ul className="navbar-nav ml-auto">
-                <li className="nav-item dropdown">
+                <li className="dropdown">
                   <a
-                    class="nav-link dropdown-toggle"
-                    href="http://example.com"
-                    id="navbarDropdownMenuLink"
+                    className="nav-link dropdown-toggle"
+                    href="#"
+                    id="dropdownMenuLink"
+                    role="button"
                     data-toggle="dropdown"
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
                     Adopt
                   </a>
-                  <a className="nav-link" href="#">
-                    <span className="sr-only">(current)</span>
-                  </a>
                   <div
-                    class="dropdown-menu"
-                    aria-labelledby="navbarDropdownMenuLink"
+                    className="dropdown-menu"
+                    aria-labelledby="dropdownMenuLink"
                   >
-                    <a class="dropdown-item" href="#">
-                      Action
+                    <a className="dropdown-item" href="/dogs">
+                      Available Dogs
                     </a>
-                    <a class="dropdown-item" href="#">
-                      Another action
+                    <a className="dropdown-item" href="#">
+                      Adoption Process
                     </a>
-                    <a class="dropdown-item" href="#">
-                      Something else here
+                    <div className="dropdown-divider" />
+                    <a className="dropdown-item" href="/adoption-application">
+                      Adoption Application
                     </a>
                   </div>
                 </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#">
+
+                <li className="dropdown">
+                  <a
+                    className="nav-link dropdown-toggle"
+                    href="#"
+                    id="dropdownMenuLink"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
                     Get Involved
                   </a>
+                  <div
+                    className="dropdown-menu"
+                    aria-labelledby="dropdownMenuLink"
+                  >
+                    <a className="dropdown-item" href="/dogs">
+                      Available Dogs
+                    </a>
+                    <a className="dropdown-item" href="#">
+                      Adoption Process
+                    </a>
+                    <div className="dropdown-divider" />
+                    <a className="dropdown-item" href="/adoption-application">
+                      Volunteer Application
+                    </a>
+                  </div>
                 </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#">
+
+                <li className="dropdown">
+                  <a
+                    className="nav-link dropdown-toggle"
+                    href="#"
+                    id="dropdownMenuLink"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
                     News + Events
                   </a>
+                  <div
+                    className="dropdown-menu"
+                    aria-labelledby="dropdownMenuLink"
+                  >
+                    <a className="dropdown-item" href="/dogs">
+                      Available Dogs
+                    </a>
+                    <a className="dropdown-item" href="#">
+                      Adoption Process
+                    </a>
+                    <div className="dropdown-divider" />
+                    <a className="dropdown-item" href="/adoption-application">
+                      Adoption Application
+                    </a>
+                  </div>
                 </li>
+
                 <li className="nav-item">
                   <a className="nav-link" href="#">
                     Donate

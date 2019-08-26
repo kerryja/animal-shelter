@@ -49,13 +49,19 @@ class Dogs extends Component {
             {dogs.map(dog => (
               <div className="col-sm-12 col-md-4 col-lg-3">
                 <div className="card">
-                  <img
-                    className="card-img-top"
-                    src={global.gConfig.baseImgUrl + dog.picture}
-                    alt="Card image cap"
-                  />
+                  <a className="dog-pic" href={"/dog/" + dog.id}>
+                    <img
+                      className="card-img-top"
+                      src={global.gConfig.baseImgUrl + dog.picture}
+                      alt="Card image cap"
+                    />
+                  </a>
                   <div className="card-body">
-                    <a href="/" className="card-link" className="card-title">
+                    <a
+                      href={"/dog/" + dog.id}
+                      className="card-link"
+                      className="card-title"
+                    >
                       {dog.name}
                     </a>
                     <p className="card-text">{dog.gender}</p>
@@ -63,7 +69,7 @@ class Dogs extends Component {
                     <p className="card-text">{moment(dog.age).fromNow(true)}</p>
                     <p className="card-text">
                       <small className="modified text-muted">
-                        Last Modified:{" "}
+                        Last Modified:
                         {moment(dog.updatedAt).format("MM-DD-YYYY h:mm a")}
                       </small>
                     </p>
