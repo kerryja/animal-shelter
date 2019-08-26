@@ -13,11 +13,6 @@ section h1 {
   font-size: 30px;
 }
 
-img.card-img-top {
-  max-height: 365.75;
-  width: 365.75;
-}
-
 /* @media screen and (min-width: 768px) and (max-width: 992px) {
   .card-img-top {
     display: block;

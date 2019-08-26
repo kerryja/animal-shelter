@@ -10,7 +10,7 @@ class Navbar extends Component {
         <nav className="navbar navbar-default navbar-expand-lg navbar-light static-top">
           <div className="container">
             <a className="navbar-brand" href="/">
-              <img src="current-logo.gif" alt="Save a Dog logo" />
+              <img src="../current-logo.gif" alt="Save a Dog logo" />
             </a>
             <button
               className="navbar-toggler"
@@ -70,12 +70,12 @@ class Navbar extends Component {
                     className="dropdown-menu"
                     aria-labelledby="dropdownMenuLink"
                   >
-                    <a className="dropdown-item" href="/dogs">
+                    {/* <a className="dropdown-item" href="/dogs">
                       Available Dogs
                     </a>
                     <a className="dropdown-item" href="#">
                       Adoption Process
-                    </a>
+                    </a> */}
                     <div className="dropdown-divider" />
                     <a className="dropdown-item" href="/adoption-application">
                       Volunteer Application
@@ -95,7 +95,7 @@ class Navbar extends Component {
                   >
                     News + Events
                   </a>
-                  <div
+                  {/* <div
                     className="dropdown-menu"
                     aria-labelledby="dropdownMenuLink"
                   >
@@ -109,7 +109,7 @@ class Navbar extends Component {
                     <a className="dropdown-item" href="/adoption-application">
                       Adoption Application
                     </a>
-                  </div>
+                  </div> */}
                 </li>
 
                 <li className="nav-item">
