@@ -1,6 +1,7 @@
 h1 {
   color: #93c9d3;
   font-family: "Delius", cursive;
+  margin-top: 15px;
 }
 
 li {
@@ -18,4 +19,9 @@ li p {
 
 li a {
   color: blue;
+}
+
+.heading {
+  margin-top: 50px;
+  color: #93c9d3;
 }

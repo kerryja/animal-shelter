@@ -42,14 +42,17 @@ class Navbar extends Component {
                     aria-labelledby="dropdownMenuLink"
                   >
                     <a className="dropdown-item" href="/dogs">
-                      Available Dogs
+                      Dogs for Adoption
                     </a>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="/adopt">
                       Adoption Process
+                    </a>
+                    <a className="dropdown-item" href="/adoption-guidelines">
+                      Adoption Guidelines
                     </a>
                     <div className="dropdown-divider" />
                     <a className="dropdown-item" href="/adoption-application">
-                      Adoption Application
+                      Apply to Adopt
                     </a>
                   </div>
                 </li>
