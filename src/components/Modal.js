@@ -1,31 +1,19 @@
-// import React from "react";
-// import { observable, action } from "mobx";
-// import { observer } from "mobx-react";
-// import classNames from "classnames";
+import React from "react";
+import "./Modal.css";
 
-// // @observer
-// class Modal extends React.PureComponent {
-//   isOpen = false;
+const Modal = ({ handleClose, show, children }) => {
+  const showHideClassName = show ? "modal display-block" : "modal display-none";
 
-//   open = e => {
-//     if (e) {
-//       e.preventDefault();
-//     }
+  return (
+    <div className={showHideClassName}>
+      <section className="modal-main">
+        {children}
+        <button className="close" onClick={handleClose}>
+          +
+        </button>
+      </section>
+    </div>
+  );
+};
 
-//     this.isOpen = true;
-//   };
-
-//   close = e => {
-//     if (e) {
-//       e.preventDefault();
-//     }
-
-//     this.isOpen = false;
-//   };
-//   render() {
-//     const overlayClasses = classNames({ open: this.isOpen });
-//     return <div id="modal" className={overlayClasses} />;
-//   }
-// }
-
-// export default Modal;
+export default Modal;

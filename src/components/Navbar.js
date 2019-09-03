@@ -80,8 +80,8 @@ class Navbar extends Component {
                       Adoption Process
                     </a> */}
                     <div className="dropdown-divider" />
-                    <a className="dropdown-item" href="/adoption-application">
-                      Volunteer Application
+                    <a className="dropdown-item" href="/volunteer">
+                      Volunteer
                     </a>
                   </div>
                 </li>

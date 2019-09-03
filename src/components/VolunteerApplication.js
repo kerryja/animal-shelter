@@ -4,20 +4,11 @@ import "./Form.css";
 class VolunteerApplication extends Component {
   render() {
     return (
-      // document.getElementById("button").addEventListener("click", () => {
-      //   document.querySelector(".bg-modal").style.display = "flex";
-      // })
-
-      // document.getElementById("close").addEventListener("click", () => {
-      //   document.querySelector("bg-modal").style.display = "none";
-      // })
       <section>
-        <h1>Volunteer Application</h1>
-        {/* <div className="bg-modal">
-          <div className="modal-content">
-            <div className="close">+</div> */}
         <div class="form-style-5">
           <form>
+            <h1>Volunteer Application</h1>
+            <p>Hello</p>
             <fieldset>
               <legend>
                 <span class="number">1</span> Personal Info
@@ -194,8 +185,6 @@ class VolunteerApplication extends Component {
             <input type="submit" value="Submit" />
           </form>
         </div>
-        {/* </div>
-        </div> */}
       </section>
     );
   }

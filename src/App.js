@@ -8,8 +8,7 @@ import TopNav from "./components/TopNav";
 import Navbar from "./components/Navbar";
 import Adopt from "./components/Adopt";
 import AdoptionGuidelines from "./components/AdoptionGuidelines";
-import AdoptionApplication from "./components/AdoptionApplication";
-import VolunteerApplication from "./components/VolunteerApplication";
+import Volunteer from "./components/Volunteer";
 
 function App() {
   return (
@@ -24,8 +23,9 @@ function App() {
         <Route path="/dog/:id" component={DogDetails} />
         <Route path="/adopt" component={Adopt} />
         <Route path="/adoption-guidelines" component={AdoptionGuidelines} />
-        <Route path="/adoption-application" component={AdoptionApplication} />
-        <Route path="/volunteer-application" component={VolunteerApplication} />
+        <Route path="/adoption-application" component={Adopt} />
+        <Route path="/volunteer" component={Volunteer} />
+        <Route path="/volunteer-application" component={Volunteer} />
       </main>
     </div>
   );

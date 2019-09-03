@@ -37,19 +37,19 @@ nav li {
 }
 
 @media screen and (max-width: 768px) {
-  .text-left {
+  .left-contact {
     display: none;
   }
 }
 
 @media screen and (max-width: 990px) {
-  .text-left li {
+  .left-contact li {
     font-size: 16px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .text-right li {
+  .right-social li {
     display: none;
   }
 }

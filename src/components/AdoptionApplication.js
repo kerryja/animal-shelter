@@ -1,34 +1,18 @@
 import React, { Component } from "react";
 import "./Form.css";
-// import Modal from "../components/Modal";
 
 class AdoptionApplication extends Component {
-  // openModal = e => {
-  //   e.preventDefault();
-
-  //   this.modal.open();
-  // };
   render() {
     return (
-      // document.getElementById("button").addEventListener("click", () => {
-      //   document.querySelector(".bg-modal").style.display = "flex";
-      // })
-
-      // document.getElementById("close").addEventListener("click", () => {
-      //   document.querySelector("bg-modal").style.display = "none";
-      // })
       <section>
-        <h1>Adoption Application</h1>
-        <p>
-          After submitting the form below, please allow 48 hours for one of our
-          staff members to contact you. If you have any questions please either
-          give us a call or send us an email.
-        </p>
-        {/* <div className="bg-modal">
-          <div className="modal-content">
-            <div className="close">+</div> */}
         <div class="form-style-5">
           <form>
+            <h1>Adoption Application</h1>
+            <p>
+              After submitting the form below, please allow 48 hours for one of
+              our staff members to contact you. If you have any questions please
+              either give us a call or send us an email.
+            </p>
             <fieldset>
               <legend>
                 <span class="number">1</span> Personal Info
@@ -217,13 +201,6 @@ class AdoptionApplication extends Component {
             <input type="submit" value="Submit" />
           </form>
         </div>
-        {/* </div>
-        </div> */}
-        {/* // <Modal */}
-        {/* //   ref={node => {
-        //     this.modal = node;
-        //   }}
-        // /> */}
       </section>
     );
   }
