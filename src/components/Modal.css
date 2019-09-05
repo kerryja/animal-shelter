@@ -19,7 +19,7 @@
 }
 
 .close {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 14px;
   font-size: 42px;
