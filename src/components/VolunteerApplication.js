@@ -8,17 +8,16 @@ class VolunteerApplication extends Component {
         <div class="form-style-5">
           <form>
             <h1>Volunteer Application</h1>
-            <p>Hello</p>
             <fieldset>
               <legend>
                 <span class="number">1</span> Personal Info
               </legend>
-              <input type="text" name="field1" placeholder="Full Name" />
-              <input type="email" name="field2" placeholder="Email" />
-              <input type="text" name="field3" placeholder="Phone" />
-              <input type="text" name="field4" placeholder="Address" />
-              <input type="text" name="field4" placeholder="Address 2" />
-              <input type="text" name="field4" placeholder="City" />
+              <input type="text" name="text" placeholder="Full Name" />
+              <input type="email" name="email" placeholder="Email" />
+              <input type="text" name="tel" placeholder="Phone" />
+              <input type="text" name="text" placeholder="Address" />
+              <input type="text" name="text" placeholder="Address 2" />
+              <input type="text" name="text" placeholder="City" />
               <select>
                 <option value="AL">Alabama</option>
                 <option value="AK">Alaska</option>
