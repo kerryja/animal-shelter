@@ -1,0 +1,12 @@
+.title {
+  font-size: 20px;
+}
+
+.title p {
+  font-size: 20px;
+}
+
+.title:hover {
+  text-decoration: none;
+  color: #ff7f50;
+}

@@ -9,6 +9,9 @@ import Navbar from "./components/Navbar";
 import Adopt from "./components/Adopt";
 import AdoptionGuidelines from "./components/AdoptionGuidelines";
 import Volunteer from "./components/Volunteer";
+import Resources from "./components/Resources";
+import Intros from "./components/Intros";
+import CrateTraining from "./components/CrateTraining";
 
 function App() {
   return (
@@ -26,6 +29,9 @@ function App() {
         <Route path="/adoption-application" component={Adopt} />
         <Route path="/volunteer" component={Volunteer} />
         <Route path="/volunteer-application" component={Volunteer} />
+        <Route path="/resources" component={Resources} />
+        <Route path="/intros" component={Intros} />
+        <Route path="/crate-training" component={CrateTraining} />
       </main>
     </div>
   );

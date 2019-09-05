@@ -54,6 +54,10 @@ class Navbar extends Component {
                     <a className="dropdown-item" href="/adoption-application">
                       Apply to Adopt
                     </a>
+
+                    <a className="dropdown-item" href="/resources">
+                      Resources for Adopters
+                    </a>
                   </div>
                 </li>
 
@@ -73,15 +77,12 @@ class Navbar extends Component {
                     className="dropdown-menu"
                     aria-labelledby="dropdownMenuLink"
                   >
-                    {/* <a className="dropdown-item" href="/dogs">
-                      Available Dogs
-                    </a>
-                    <a className="dropdown-item" href="#">
-                      Adoption Process
-                    </a> */}
-                    <div className="dropdown-divider" />
                     <a className="dropdown-item" href="/volunteer">
                       Volunteer
+                    </a>
+                    <div className="dropdown-divider" />
+                    <a className="dropdown-item" href="/volunteer-application">
+                      Apply to Volunteer
                     </a>
                   </div>
                 </li>
@@ -98,21 +99,6 @@ class Navbar extends Component {
                   >
                     News + Events
                   </a>
-                  {/* <div
-                    className="dropdown-menu"
-                    aria-labelledby="dropdownMenuLink"
-                  >
-                    <a className="dropdown-item" href="/dogs">
-                      Available Dogs
-                    </a>
-                    <a className="dropdown-item" href="#">
-                      Adoption Process
-                    </a>
-                    <div className="dropdown-divider" />
-                    <a className="dropdown-item" href="/adoption-application">
-                      Adoption Application
-                    </a>
-                  </div> */}
                 </li>
 
                 <li className="nav-item">
