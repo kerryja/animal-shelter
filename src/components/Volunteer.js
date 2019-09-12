@@ -49,7 +49,7 @@ class Volunteer extends Component {
           <h3>Adult Volunteers (Ages 18+)</h3>
           <p>
             If you are interested in volunteering, please fill out an{" "}
-            <Link to="/volunteer-application" onClick={this.showModal}>
+            <Link to={VolunteerApplication} onClick={this.showModal}>
               application
             </Link>
             . The next step is to come to a volunteer information meeting, and

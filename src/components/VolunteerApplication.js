@@ -5,7 +5,7 @@ class VolunteerApplication extends Component {
   render() {
     return (
       <section>
-        <div class="form-style-5">
+        <div className="form-style-5">
           <form>
             <h1>Volunteer Application</h1>
             <fieldset>

@@ -27,6 +27,10 @@
   cursor: pointer;
 }
 
+button:focus {
+  outline: none;
+}
+
 .display-block {
   display: block;
 }

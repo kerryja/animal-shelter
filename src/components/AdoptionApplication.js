@@ -5,7 +5,7 @@ class AdoptionApplication extends Component {
   render() {
     return (
       <section>
-        <div class="form-style-5">
+        <div className="form-style-5">
           <form method="POST" action={global.gConfig.baseAPIURL + "/adopt"}>
             <h1>Adoption Application</h1>
             <p>

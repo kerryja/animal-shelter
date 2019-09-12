@@ -40,7 +40,7 @@ class Adopt extends Component {
           <h3>Application</h3>
           <p>
             Fill out the Adoption Application form{" "}
-            <Link to="/adoption-application" onClick={this.showModal}>
+            <Link to={AdoptionApplication} onClick={this.showModal}>
               here
             </Link>
             .{" "}
