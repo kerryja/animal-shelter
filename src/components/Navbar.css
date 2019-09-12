@@ -14,14 +14,6 @@
   }
 }
 
-.dropdown:hover > .dropdown-menu {
-  display: block;
-}
-
-.dropdown-toggle::after {
-  display: none;
-}
-
 .nav-link:hover {
   color: #ff7f50;
 }

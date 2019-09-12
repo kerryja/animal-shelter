@@ -16,8 +16,8 @@ class Navbar extends Component {
               className="navbar-toggler"
               type="button"
               data-toggle="collapse"
-              data-target="#navbarResponsive"
-              aria-controls="navbarResponsive"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
@@ -25,11 +25,11 @@ class Navbar extends Component {
             </button>
             <div className="collapse navbar-collapse" id="navbarResponsive">
               <ul className="navbar-nav ml-auto">
-                <li className="dropdown">
+                <li className="nav-item dropdown">
                   <a
                     className="nav-link dropdown-toggle"
                     href="#"
-                    id="dropdownMenuLink"
+                    id="navbarDropdown"
                     role="button"
                     data-toggle="dropdown"
                     aria-haspopup="true"
@@ -61,11 +61,11 @@ class Navbar extends Component {
                   </div>
                 </li>
 
-                <li className="dropdown">
+                <li className="nav-item dropdown">
                   <a
                     className="nav-link dropdown-toggle"
                     href="#"
-                    id="dropdownMenuLink"
+                    id="navbarDropdown"
                     role="button"
                     data-toggle="dropdown"
                     aria-haspopup="true"
@@ -87,11 +87,11 @@ class Navbar extends Component {
                   </div>
                 </li>
 
-                <li className="dropdown">
+                <li className="nav-item dropdown">
                   <a
                     className="nav-link dropdown-toggle"
                     href="#"
-                    id="dropdownMenuLink"
+                    id="navbarDropdown"
                     role="button"
                     data-toggle="dropdown"
                     aria-haspopup="true"
