@@ -69,7 +69,7 @@ class Dogs extends Component {
                     <p className="card-text">{moment(dog.age).fromNow(true)}</p>
                     <p className="card-text">
                       <small className="modified text-muted">
-                        Last Modified:
+                        Last Modified:{" "}
                         {moment(dog.updatedAt).format("MM-DD-YYYY h:mm a")}
                       </small>
                     </p>

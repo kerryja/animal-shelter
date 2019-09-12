@@ -1,6 +1,6 @@
 {
     "development": {
-        "baseImgUrl": "http://www.saveadog.org/DogPictures/",
+        "baseImgUrl": "/assets/dog-images/",
         "baseAPIURL": "http://localhost:4000/api",
         "serverPort": 4000
     },
