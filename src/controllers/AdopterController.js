@@ -124,7 +124,7 @@ module.exports = {
       from: "kerry.jackson108@gmail.com",
       subject: `Thank you ${req.body.name}!`,
       text: "Thank you for filling out an adoption form!",
-      html: `Thank you, ${req.body.name} for filling out an adoption form with Save A Dog. We will respond to your inquiry within 48 hours. Thank you for your patience and your interest in Save A Dog.`
+      html: `Thank you, ${req.body.name} for filling out an adoption form with Adopted. We will respond to your inquiry within 48 hours. Thank you for your patience and your interest in Adopted.`
     };
     sgMail.send(msg2).catch(sgErr => {
       console.log(sgErr);

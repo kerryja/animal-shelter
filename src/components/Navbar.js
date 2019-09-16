@@ -10,7 +10,7 @@ class Navbar extends Component {
         <nav className="navbar navbar-default navbar-expand-lg navbar-light static-top">
           <div className="container">
             <a className="navbar-brand" href="/">
-              <img src="../current-logo.gif" alt="Save a Dog logo" />
+              <img src="../logo.png" alt="Save a Dog logo" />
             </a>
             <button
               className="navbar-toggler"

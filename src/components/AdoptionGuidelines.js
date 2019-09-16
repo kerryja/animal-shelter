@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "./Adopt.css";
 
 class AdoptionGuidelines extends Component {
@@ -102,7 +103,7 @@ class AdoptionGuidelines extends Component {
           <p>
             We require crate training for puppies. No exceptions! For
             information on crate training basics, please visit{" "}
-            <a href="http://www.saveadog.org/cratetraining.asp">this page</a>.
+            <Link to={"/crate-training"}>this page</Link>.
           </p>
           <h4>Working People</h4>
           <p>
@@ -160,7 +161,7 @@ class AdoptionGuidelines extends Component {
             doesn't dart out into the street.
           </p>
           <hr></hr>
-          <h2 className="heading">Our Obediene Training Requirements</h2>
+          <h2 className="heading">Our Obedience Training Requirements</h2>
           <p>
             <em>
               We require obedience training for all dogs under 3 years of age.{" "}

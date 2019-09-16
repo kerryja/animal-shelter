@@ -143,7 +143,7 @@ class VolunteerApplication extends Component {
               <div className="checkbox-item">
                 <input type="checkbox" id="not-sure" name="not sure" />
                 <label for="not-sure">
-                  Not sure yet but would like to speak to a Save A Dog volunteer
+                  Not sure yet but would like to speak to an Adopted volunteer
                 </label>
               </div>
             </fieldset>

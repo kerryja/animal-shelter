@@ -12,7 +12,7 @@ class TopNav extends Component {
                 <div className="col-6 left-contact text-left">
                   <li>
                     <a href="mailto:adoptions@saveadog.org">
-                      adoptions@saveadog.org
+                      adoptions@adopted.com
                     </a>
                   </li>
                   <li>
@@ -22,20 +22,12 @@ class TopNav extends Component {
 
                 <div className="col-6 right-social text-right">
                   <li>
-                    <a
-                      href="https://twitter.com/SaveADogInc"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href="" target="_blank" rel="noopener noreferrer">
                       <i className="social" className="fab fa-twitter" />
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="https://www.facebook.com/saveadog.sudbury"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href="" target="_blank" rel="noopener noreferrer">
                       <i
                         className="social"
                         className="fab fa-facebook-square"
@@ -43,11 +35,7 @@ class TopNav extends Component {
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="https://www.instagram.com/saveadoginc/?ref=badge"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href="" target="_blank" rel="noopener noreferrer">
                       <i className="social" className="fab fa-instagram" />
                     </a>
                   </li>

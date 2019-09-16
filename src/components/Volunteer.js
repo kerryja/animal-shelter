@@ -17,7 +17,7 @@ class Volunteer extends Component {
     return (
       <div>
         <div className="container text-left">
-          <h1>Volunteer for Save A Dog</h1>
+          <h1>Volunteer for Adopted</h1>
           <hr></hr>
           <p>
             Come join us in the world of animal rescue and we will show you one
@@ -41,8 +41,8 @@ class Volunteer extends Component {
             volunteeringInformation meetings are by invitation only as our
             training space has limited seating. Thanks for your willingness to
             volunteer and for your patience. Please send any questions to{" "}
-            <a href="mailto:volunteering@saveadog.org">
-              volunteering@saveadog.org
+            <a href="mailto:volunteering@adopted.com">
+              volunteering@adopted.com
             </a>
             .
           </p>
@@ -54,7 +54,7 @@ class Volunteer extends Component {
             </Link>
             . The next step is to come to a volunteer information meeting, and
             you'll be ready to start. Thank you for your interest in helping
-            Save A Dog.
+            Adopted.
           </p>
           <h3>Teen Volunteers (Age 14-17)</h3>
           <p>

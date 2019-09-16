@@ -2,9 +2,8 @@
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
     url("beagle2.jpg") white no-repeat;
-  height: 100vh;
-  background-size: cover; /*may need to change to contain*/
-  display: flex;
+  height: 100%;
+  background-size: cover;
 }
 
 @media screen and (max-width: 1000px) {
@@ -25,7 +24,7 @@
   .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
       url("beagle-640.jpg") white no-repeat;
-    background-size: contain;
+    background-position-x: center;
   }
 }
 
@@ -33,7 +32,7 @@
   .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
       url("beagle-485.jpg") white no-repeat;
-    background-size: contain;
+    background-position-x: center;
   }
 }
 
@@ -41,55 +40,66 @@
   .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
       url("beagle-380.jpg") white no-repeat;
-    background-size: contain;
+    background-position-x: center;
+    background-position-y: top;
   }
 }
 
-.hero h1 {
+.hero-text {
   font-size: 65px;
   /* text-shadow: 1px 1px 1px #000; */
   text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
     0px 18px 23px rgba(0, 0, 0, 0.1);
-  margin-top: 300px;
-  margin-left: 180px;
-  /* font-family: "Montserrat", sans-serif; */
+  margin-top: 350px;
+  margin-left: 250px;
   font-family: "Delius", cursive;
   font-weight: bold;
 }
 
+@media screen and (max-width: 1450px) {
+  .hero-text {
+    font-size: 55px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .hero-text {
+    font-size: 52px;
+  }
+}
+
 @media screen and (max-width: 1000px) {
-  .hero h1 {
-    font-size: 50px;
-    margin-left: 100px;
+  .hero-text p {
+    font-size: 48px;
+    text-align: center;
   }
 }
 
 @media screen and (max-width: 795px) {
-  .hero h1 {
+  .hero-text {
     font-size: 45px;
-    margin-left: 50px;
     margin-top: 320px;
   }
 }
 
 @media screen and (max-width: 640px) {
-  .hero h1 {
+  .hero-text {
     text-align: center;
     align-items: center;
-    margin: auto;
-    margin-top: 350px;
+    margin: 0 auto;
     font-size: 40px;
   }
 }
 
 @media screen and (max-width: 485px) {
-  .hero h1 {
+  .hero-text {
     font-size: 35px;
   }
 }
 
 @media screen and (max-width: 388px) {
-  .hero h1 {
+  .hero-text {
     margin-top: 280px;
+    margin: 0 auto;
   }
 }

@@ -27,15 +27,8 @@ class Adopt extends Component {
           <h3>Adoption Guidelines</h3>
           <p>
             The first step in the process is to read our guidelines for adopting
-            a dog from Save A Dog. See guidelines{" "}
-            <Link to={"/adoption-guidelines"}>here</Link>. It is also important
-            to us that you read our{" "}
-            <a href="http://www.saveadog.org/holistic.asp" target="blank">
-              Holistic Dog
-            </a>{" "}
-            page as we want our rescued dogs to have a healthy lifestyle, free
-            from chemicals and pesticides. Following a holistic protocol will
-            also save you from costly vet bills in the future.
+            a dog from Adopted. See guidelines{" "}
+            <Link to={"/adoption-guidelines"}>here</Link>!
           </p>
           <h3>Application</h3>
           <p>
