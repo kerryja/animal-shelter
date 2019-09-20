@@ -2,6 +2,10 @@
   background-color: #ffffff;
 }
 
+.navbar-brand img {
+  max-width: 250px;
+}
+
 @media screen and (max-width: 1000px) {
   .navbar-brand img {
     max-width: 200px;
