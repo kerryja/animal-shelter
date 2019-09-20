@@ -1,5 +1,4 @@
 .hero {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
     url("beagle2.jpg") white no-repeat;
   height: 100%;
@@ -32,7 +31,6 @@
   .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
       url("beagle-485.jpg") white no-repeat;
-    background-position-x: center;
   }
 }
 
@@ -40,14 +38,22 @@
   .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
       url("beagle-380.jpg") white no-repeat;
-    background-position-x: center;
     background-position-y: top;
   }
 }
 
+.hero-text-mobile {
+  display: none;
+  font-size: 50px;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0.1);
+  font-family: "Delius", cursive;
+  font-weight: bold;
+  margin-top: 400px;
+}
+
 .hero-text {
   font-size: 65px;
-  /* text-shadow: 1px 1px 1px #000; */
   text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
     0px 18px 23px rgba(0, 0, 0, 0.1);
   margin-top: 350px;
@@ -65,13 +71,7 @@
 @media screen and (max-width: 1200px) {
   .hero-text {
     font-size: 52px;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .hero-text p {
-    font-size: 48px;
-    text-align: center;
+    margin-left: 150px;
   }
 }
 
@@ -79,27 +79,31 @@
   .hero-text {
     font-size: 45px;
     margin-top: 320px;
+    margin-left: 75px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-text {
+    font-size: 40px;
+    margin-left: 0;
+    margin-right: 320px;
   }
 }
 
 @media screen and (max-width: 640px) {
   .hero-text {
-    text-align: center;
-    align-items: center;
-    margin: 0 auto;
-    font-size: 40px;
+    display: none;
+  }
+  .hero-text-mobile {
+    display: inline-block;
   }
 }
 
-@media screen and (max-width: 485px) {
-  .hero-text {
-    font-size: 35px;
-  }
-}
-
-@media screen and (max-width: 388px) {
-  .hero-text {
-    margin-top: 280px;
-    margin: 0 auto;
+@media screen and (max-width: 600px) {
+  .hero-text-mobile {
+    font-size: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 }
