@@ -20,19 +20,19 @@ class Adopt extends Component {
         <div className="container text-left">
           <h1>Adoption Process</h1>
           <hr></hr>
-          <p>
+          <p id="first-paragraph">
             Our goal is to place the right dog in the right home. Please read
             this Adoption Process Page in full before submitting an application.
           </p>
-          <h3>Adoption Guidelines</h3>
+          <h4>Adoption Guidelines</h4>
           <p>
             The first step in the process is to read our guidelines for adopting
             a dog from Adopted. See guidelines{" "}
             <Link to={"/adoption-guidelines"}>here</Link>!
           </p>
-          <h3>Application</h3>
+          <h4>Application</h4>
           <p>
-            Fill out the Adoption Application form{" "}
+            Fill out the Adoption Application{" "}
             <Link to={AdoptionApplication} onClick={this.showModal}>
               here
             </Link>
@@ -44,7 +44,7 @@ class Adopt extends Component {
             Knowing a little bit about you before you come down to meet the dogs
             saves both you and our adoption counselors considerable time.
           </p>
-          <h3>Confirmation</h3>
+          <h4>Confirmation</h4>
           <p>
             Once you have filled out the application, please give us a day or so
             to get back to you. We are not a drop-in shelter where you walk
@@ -57,7 +57,7 @@ class Adopt extends Component {
             steer you towards an adult dog who can stay at home during the day
             or who can get along just along just fine with a dog walker.{" "}
           </p>
-          <h3>Meet and Greet</h3>
+          <h4>Meet and Greet</h4>
           <p>
             When you come to our shelter visiting hours, we can look up your
             application and bring you out to meet the dogs you are interested
@@ -88,8 +88,8 @@ class Adopt extends Component {
             and we feel it's a match, and then we would have you go get your dog
             to be the final decision-maker.{" "}
           </p>
-          <h3>Deposit</h3>
-          <p>
+          <h4>Deposit</h4>
+          <p id="last-paragraph">
             Once you have met the dog and both parties agree it is a good match,
             then you may leave a $50 deposit to hold the dog for 24 hours while
             we check your references and/or conduct a home visit. The deposit is

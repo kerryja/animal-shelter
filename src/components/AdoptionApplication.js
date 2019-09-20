@@ -11,7 +11,8 @@ class AdoptionApplication extends Component {
             <p>
               After submitting the form below, please allow 48 hours for one of
               our staff members to contact you. If you have any questions please
-              either give us a call or send us an email.
+              either give us a <a href="tel:123-456-7890">call</a> or send us an{" "}
+              <a href="mailto:adoptions@saveadog.org">email</a>.
             </p>
             <fieldset>
               <legend>
