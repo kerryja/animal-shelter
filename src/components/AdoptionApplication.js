@@ -7,7 +7,7 @@ class AdoptionApplication extends Component {
       <section>
         <div className="form-style-5">
           <form method="POST" action={global.gConfig.baseAPIURL + "/adopt"}>
-            <h1>Adoption Application</h1>
+            <h1 className="heading">Adoption Application</h1>
             <p>
               After submitting the form below, please allow 48 hours for one of
               our staff members to contact you. If you have any questions please

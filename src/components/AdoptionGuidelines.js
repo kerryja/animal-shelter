@@ -5,9 +5,9 @@ import "./Adopt.css";
 class AdoptionGuidelines extends Component {
   render() {
     return (
-      <div className="container text-left">
+      <div className="container text-sm-center text-md-left">
         <div>
-          <h1>Adoption Guidelines</h1>
+          <h1 className="heading">Adoption Guidelines</h1>
           <hr></hr>
           <p></p>
           <h4>Adoption Fees</h4>
@@ -89,7 +89,7 @@ class AdoptionGuidelines extends Component {
             deposit on.
           </p>
           <hr></hr>
-          <h2 className="heading">Guidelines for Adopting Puppies</h2>
+          <h3 className="heading2">Guidelines for Adopting Puppies</h3>
           <p>
             Young puppies need lots of socialization. The rule of thumb is that
             the pup should not be left alone for more than one hour for every
@@ -120,7 +120,7 @@ class AdoptionGuidelines extends Component {
             young dog.
           </p>
           <hr></hr>
-          <h2 className="heading">Our Fencing Requirements</h2>
+          <h3 className="heading2">Our Fencing Requirements</h3>
           <p>
             <em>
               We require a fully fenced in back yard if you have children under
@@ -161,8 +161,8 @@ class AdoptionGuidelines extends Component {
             doesn't dart out into the street.
           </p>
           <hr></hr>
-          <h2 className="heading">Our Obedience Training Requirements</h2>
-          <p>
+          <h3 className="heading2">Our Obedience Training Requirements</h3>
+          <p id="last-paragraph">
             <em>
               We require obedience training for all dogs under 3 years of age.{" "}
             </em>

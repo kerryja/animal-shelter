@@ -54,6 +54,20 @@ nav li {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .mobile li {
+    padding: 30px;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .mobile li {
+    padding: 15px;
+    font-size: 20px;
+  }
+}
+
 #top-nav li a {
   color: white;
 }

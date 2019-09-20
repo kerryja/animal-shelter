@@ -17,8 +17,8 @@ class Adopt extends Component {
   render() {
     return (
       <div>
-        <div className="container text-left">
-          <h1>Adoption Process</h1>
+        <div className="container text-sm-center text-md-left">
+          <h1 className="heading">Adoption Process</h1>
           <hr></hr>
           <p id="first-paragraph">
             Our goal is to place the right dog in the right home. Please read

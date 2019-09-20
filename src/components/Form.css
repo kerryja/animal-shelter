@@ -24,15 +24,6 @@ p {
   padding: 10px;
 }
 
-/* .checkboxes {
-  width: 200px;
-}
-
-.checkbox-item {
-  display: block;
-  width: 150px;
-} */
-
 input[type="radio"] {
   margin-left: 10px;
   margin-right: 10px;
@@ -42,14 +33,10 @@ label {
   display: inline-block;
 }
 
-/* .checkbox-container {
-  box-sizing: border-box;
-  line-height: 30px;
-  margin: 0;
-  outline: 0;
-  overflow: hidden;
-  padding: 10px;
-} */
+input[type="checkbox"] {
+  vertical-align: middle;
+  margin-left: 10px;
+}
 
 span {
   font-weight: bold;

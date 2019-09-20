@@ -1,7 +1,23 @@
-h1 {
+.heading {
   color: #93c9d3;
   font-family: "Delius", cursive;
   margin-top: 15px;
+}
+
+@media screen and (max-width: 420px) {
+  .heading {
+    font-size: 35px;
+  }
+}
+
+.heading2 {
+  color: #93c9d3;
+  font-family: "Delius", cursive;
+}
+
+ol {
+  padding-inline-start: 0;
+  padding-top: 10px;
 }
 
 li {
@@ -20,6 +36,10 @@ li p {
   padding-bottom: 50px;
 }
 
+.volunteer-heading {
+  padding-top: 10px;
+}
+
 .numbers {
   font-size: 20px;
   color: #ff7f50;
@@ -27,9 +47,4 @@ li p {
 
 li a {
   color: blue;
-}
-
-.heading {
-  margin-top: 50px;
-  color: #93c9d3;
 }

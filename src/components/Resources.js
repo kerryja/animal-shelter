@@ -5,8 +5,8 @@ import styles from "./Resources.module.css";
 function Resources() {
   return (
     <div>
-      <div className="container text-left">
-        <h1>Resources for Dog Lovers</h1>
+      <div className="container text-sm-center text-md-left">
+        <h1 className="heading">Resources for Dog Lovers</h1>
         <hr></hr>
         <ol>
           <li>

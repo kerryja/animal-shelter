@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import Modal from "./Modal";
 import VolunteerApplication from "./VolunteerApplication";
+import "./Adopt.css";
 
 class Volunteer extends Component {
   state = { show: false };
@@ -16,16 +17,16 @@ class Volunteer extends Component {
   render() {
     return (
       <div>
-        <div className="container text-left">
-          <h1>Volunteer for Adopted</h1>
+        <div className="container text-sm-center text-md-left">
+          <h1 className="heading">Volunteer for Adopted</h1>
           <hr></hr>
-          <p>
+          <p id="first-paragraph">
             Come join us in the world of animal rescue and we will show you one
             of the most satisfying ways to help both animals and people. We are
             looking for volunteers from all walks of life to help us with the
             many little tasks that it takes to run a successful humane society.
           </p>
-          <h3>We need volunteers to help with the following:</h3>
+          <h4>We need volunteers to help with the following:</h4>
           <ol>
             <li>Transportation</li>
             <li>Fund raising</li>
@@ -46,7 +47,7 @@ class Volunteer extends Component {
             </a>
             .
           </p>
-          <h3>Adult Volunteers (Ages 18+)</h3>
+          <h4 className="volunteer-heading">Adult Volunteers (Ages 18+)</h4>
           <p>
             If you are interested in volunteering, please fill out an{" "}
             <Link to={VolunteerApplication} onClick={this.showModal}>
@@ -56,15 +57,15 @@ class Volunteer extends Component {
             you'll be ready to start. Thank you for your interest in helping
             Adopted.
           </p>
-          <h3>Teen Volunteers (Age 14-17)</h3>
-          <p>
+          <h4 className="volunteer-heading">Teen Volunteers (Age 14-17)</h4>
+          <p id="last-paragraph">
             All information about our Teen Volunteer Program can be found here
           </p>
-
-          <Modal show={this.state.show} handleClose={this.hideModal}>
-            <VolunteerApplication />
-          </Modal>
         </div>
+
+        <Modal show={this.state.show} handleClose={this.hideModal}>
+          <VolunteerApplication />
+        </Modal>
       </div>
     );
   }

@@ -7,7 +7,7 @@ class VolunteerApplication extends Component {
       <section>
         <div className="form-style-5">
           <form>
-            <h1>Volunteer Application</h1>
+            <h1 className="heading">Volunteer Application</h1>
             <fieldset>
               <legend>
                 <span class="number">1</span> Personal Info
@@ -96,54 +96,63 @@ class VolunteerApplication extends Component {
             <fieldset className="checkboxes">
               <div className="checkbox-item">
                 <p>What areas are you interested in? Check all that apply</p>
-                <input
-                  type="checkbox"
-                  id="transportation"
-                  name="transportation"
-                />
-                <label for="transportation">Transportation</label>
+
+                <label for="transportation">
+                  Transportation
+                  <input
+                    type="checkbox"
+                    id="transportation"
+                    name="transportation"
+                  />
+                </label>
               </div>
               <div className="checkbox-item">
-                <input type="checkbox" id="home-checks" name="home checks" />
-                <label for="checkbox">Home Checks</label>
+                <label for="checkbox">
+                  Home Checks
+                  <input type="checkbox" id="home-checks" name="home checks" />
+                </label>
               </div>
               <div className="checkbox-item">
-                <input
-                  type="checkbox"
-                  id="help-shelter"
-                  name="helping at shelter"
-                />
-                <label for="help-shelter">Helping at the shelter</label>
+                <label for="help-shelter">
+                  Helping at the shelter
+                  <input
+                    type="checkbox"
+                    id="help-shelter"
+                    name="helping at shelter"
+                  />
+                </label>
               </div>
               <div className="checkbox-item">
-                <input
-                  type="checkbox"
-                  id="day-transports"
-                  name="day transports"
-                />
                 <label for="day-transports">
                   Day transports (this would require having one full day free to
                   pick up dogs that are in transport to us from the South
+                  <input
+                    type="checkbox"
+                    id="day-transports"
+                    name="day transports"
+                  />
                 </label>
               </div>
               <div className="checkbox-item">
-                <input
-                  type="checkbox"
-                  id="public-relations"
-                  name="public relations"
-                />
-                <label for="public-relations">Public relations</label>
+                <label for="public-relations">
+                  Public relations
+                  <input
+                    type="checkbox"
+                    id="public-relations"
+                    name="public-relations"
+                  />
+                </label>
               </div>
               <div className="checkbox-item">
-                <input type="checkbox" id="fundraising" name="fundraising" />
                 <label for="fundraising">
                   Fundraising (capital campaign and auction)
+                  <input type="checkbox" id="fundraising" name="fundraising" />
                 </label>
               </div>
               <div className="checkbox-item">
-                <input type="checkbox" id="not-sure" name="not sure" />
                 <label for="not-sure">
                   Not sure yet but would like to speak to an Adopted volunteer
+                  <input type="checkbox" id="not-sure" name="not sure" />
                 </label>
               </div>
             </fieldset>
