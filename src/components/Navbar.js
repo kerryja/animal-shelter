@@ -5,9 +5,8 @@ import "./Navbar.css";
 class Navbar extends Component {
   render() {
     return (
-      // for best results use an SVG image and make sure to set width/height in CSS
       <header>
-        <nav className="navbar navbar-default navbar-expand-lg navbar-light static-top">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <div className="container">
             <a className="navbar-brand" href="/">
               <img src="../logo.png" alt="Adopted logo" />
@@ -16,14 +15,15 @@ class Navbar extends Component {
               className="navbar-toggler"
               type="button"
               data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
+              data-target="#navbarTogglerDemo01"
+              aria-controls="navbar"
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
               <span className="navbar-toggler-icon" />
             </button>
-            <div className="collapse navbar-collapse" id="navbarResponsive">
+
+            <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item dropdown">
                   <a
