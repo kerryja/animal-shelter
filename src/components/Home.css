@@ -5,6 +5,13 @@
   background-size: cover;
 }
 
+@media screen and (max-width: 1024px) {
+  .hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
+      url("beagle-1000.jpg") white no-repeat;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
@@ -31,6 +38,14 @@
   .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
       url("beagle-485.jpg") white no-repeat;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
+      url("beagle-411(2).jpg") white no-repeat;
+    background-position-y: top;
   }
 }
 
@@ -105,5 +120,23 @@
     font-size: 45px;
     padding-left: 5px;
     padding-right: 5px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .hero-text-mobile {
+    font-size: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 350px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .hero-text-mobile {
+    font-size: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 310px;
   }
 }
