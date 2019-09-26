@@ -44,7 +44,7 @@
 @media screen and (max-width: 425px) {
   .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
-      url("beagle-411(2).jpg") white no-repeat;
+      url("beagle-411.jpg") white no-repeat;
     background-position-y: top;
   }
 }
