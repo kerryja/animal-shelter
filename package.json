@@ -19,7 +19,7 @@
     "react-image-gallery": "^0.8.18",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
-    "sequelize": "^5.12.3",
+    "sequelize": "^6.29.0",
     "sequelize-cli": "^5.5.0"
   },
   "scripts": {
